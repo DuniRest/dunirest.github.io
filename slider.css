@@ -27,17 +27,17 @@
 	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
 }
 
-.slide1 {width:100%; height:300px; background-position: top left;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/1751422363313.jpg); background-size: 640px 300px; }
-.slide2 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/795524354960.jpg); background-size: 640px 300px;}
-.slide3 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/9065388987886.jpg); background-size: 640px 300px;}
-.slide4 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/2012152543797.jpg); background-size: 640px 300px;}
-.slide5 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/10009092995695.jpg); background-size: 640px 300px;}
-.slide6 {width:100%; height:300px; background-position: top left;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/7662956103694.jpg); background-size: 640px 300px; }
-.slide7 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/8016068691656.jpg); background-size: 640px 300px;}
-.slide8 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/1939785501136.jpg); background-size: 640px 300px;}
-.slide9 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/4662670094167.jpg); background-size: 640px 300px;}
-.slide10 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/8859201804473.jpg); background-size: 640px 300px;}
-.slide11 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/9141611304846.jpg); background-size: 640px 300px;}
+.slide1 {width:100%; height:300px; background-position: top left;  background-repeat:no-repeat;  background-image: url(https://i.ibb.co/QdS0YP9/1751422363313.jpg); background-size: 640px 300px; }
+.slide2 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(https://i.ibb.co/9yKPH75/795524354960.jpg); background-size: 640px 300px;}
+.slide3 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(https://i.ibb.co/MgFWyB0/9065388987886.jpg); background-size: 640px 300px;}
+.slide4 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(https://i.ibb.co/P9069Hr/2012152543797.jpg); background-size: 640px 300px;}
+.slide5 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(https://i.ibb.co/Bzkf8P4/10009092995695.jpg); background-size: 640px 300px;}
+.slide6 {width:100%; height:300px; background-position: top left;  background-repeat:no-repeat;  background-image: url(https://i.ibb.co/FKdXVwZ/7662956103694.jpg); background-size: 640px 300px; }
+.slide7 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(https://i.ibb.co/93H80FR/8016068691656.jpg); background-size: 640px 300px;}
+.slide8 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(https://i.ibb.co/34bc68m/1939785501136.jpg); background-size: 640px 300px;}
+.slide9 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(https://i.ibb.co/Fh5jQLR/4662670094167.jpg); background-size: 640px 300px;}
+.slide10 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(https://i.ibb.co/YLy0GmQ/8859201804473.jpg); background-size: 640px 300px;}
+.slide11 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(https://i.ibb.co/7vZVQK8/9141611304846.jpg); background-size: 640px 300px;}
 
 #slide1:checked ~ .slider > .slide1,
 #slide2:checked ~ .slider > .slide2,
