@@ -1,0 +1,25 @@
+.site {
+	width:1020px;
+	margin:0px auto;
+}
+
+.rasp {
+  width:1020px;
+	margin:0px auto;
+}
+.prigorod {
+  width:1020px;
+	margin:0px auto;
+}
+.service {
+	width:1020px;
+	  margin:0px auto;
+  }
+[type="radio"], .site, .rasp, .prigorod, .service{
+  display: none;
+}
+#site:checked ~ .site,
+#rasp:checked ~ .rasp,
+#prigorod:checked ~ .prigorod,
+#service:checked ~ .service{
+  display: block;}

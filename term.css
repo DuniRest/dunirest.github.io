@@ -1,0 +1,65 @@
+.tabs {
+    max-width:700px;
+    float:left;
+    margin:20px 0px 0px 0px;
+}
+    .tabs-title {
+        float:left;
+        width:222px;
+        color:#000;     
+        font-size:12px;
+        cursor:pointer;
+        padding:12px 0px 15px 0px;
+        font-weight:700;
+        text-transform:uppercase;
+        background:transparent url('https://i.ibb.co/PM8zw8y/skorost.png') no-repeat left ;
+    }
+    .tabs-title:hover {color:#c4181f; background:transparent url('https://i.ibb.co/HB9SpwB/skorost1.png') no-repeat left;}
+    .tabs-title:hover #serv1{color:#c4181f; background:transparent url('https://i.ibb.co/HB9SpwB/skorost1.png') no-repeat left;}
+        .tt-select, #menu1,#serv2,#rasp{
+            color:#c4181f !important;
+        }
+            .tt-select span, .tabs-title:hover span {
+                background-position:left -50px !important;
+            }
+        .tabs-title span {
+            padding:18px 0px 10px 40px;
+        }
+        #menu1{
+            background:transparent url('https://i.ibb.co/QYYTwnQ/info1.png') no-repeat left ;}
+            #menu2{
+                background:transparent url('https://i.ibb.co/ZzCPKcH/info.png') no-repeat left ;}
+            #serv1{
+                background:transparent url('https://i.ibb.co/ZzCPKcH/info.png') no-repeat left ;}
+            #serv2{
+                background:transparent url('https://i.ibb.co/QYYTwnQ/info1.png') no-repeat left ;}
+        #serv1:hover,#menu2:hover{
+            background:transparent url('https://i.ibb.co/QYYTwnQ/info1.png') no-repeat left ;
+        }
+        #rasp{ background:transparent url('https://i.ibb.co/HB9SpwB/skorost1.png') no-repeat left ;}
+        .tabmain {overflow: hidden;}
+
+    
+        .serv-list{margin:5px;
+        width: 450px;}
+            .serv {
+                color:#616161;
+                text-decoration:none;
+                border-bottom:1px dotted;
+                cursor:pointer;}
+            .service_text {
+                display:block;
+            }
+           
+        
+        ul.bullred {
+            padding:0px;
+        }	
+            ul.bullred li {
+                width:100%;
+                float:left;
+                list-style:none;
+                padding:0px 0px 6px 30px;
+                color:#616161;
+                background:transparent url('https://www.passionforum.ru/upload/146/u14664/006/603232bb.gif') no-repeat left 0px;		
+            }

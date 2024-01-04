@@ -1,0 +1,117 @@
+
+.wrapper {
+	height: 300px;
+	width: 600px;
+}
+
+.slider {
+	position: relative;
+	width: 640px;
+	height: 250px;
+	z-index: 0;
+}
+
+.slides {
+	height: 300px;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+.slide1 {width:100%; height:300px; background-position: top left;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/1751422363313.jpg); background-size: 640px 300px; }
+.slide2 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/795524354960.jpg); background-size: 640px 300px;}
+.slide3 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/9065388987886.jpg); background-size: 640px 300px;}
+.slide4 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/2012152543797.jpg); background-size: 640px 300px;}
+.slide5 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/10009092995695.jpg); background-size: 640px 300px;}
+.slide6 {width:100%; height:300px; background-position: top left;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/7662956103694.jpg); background-size: 640px 300px; }
+.slide7 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/8016068691656.jpg); background-size: 640px 300px;}
+.slide8 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/1939785501136.jpg); background-size: 640px 300px;}
+.slide9 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/4662670094167.jpg); background-size: 640px 300px;}
+.slide10 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/8859201804473.jpg); background-size: 640px 300px;}
+.slide11 {width:100%; height:300px; background-position: top center;  background-repeat:no-repeat;  background-image: url(http://cms1.dzvr.ru/files/volgograd/9141611304846.jpg); background-size: 640px 300px;}
+
+#slide1:checked ~ .slider > .slide1,
+#slide2:checked ~ .slider > .slide2,
+#slide3:checked ~ .slider > .slide3,
+#slide4:checked ~ .slider > .slide4,
+#slide5:checked ~ .slider > .slide5,
+#slide6:checked ~ .slider > .slide6,
+#slide7:checked ~ .slider > .slide7,
+#slide8:checked ~ .slider > .slide8,
+#slide9:checked ~ .slider > .slide9,
+#slide10:checked ~ .slider > .slide10,
+#slide11:checked ~ .slider > .slide11 
+{
+	opacity: 1;
+	z-index: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+.wrapper > input {
+	display: none;
+}
+
+.wrapper .controls {
+	left: 44.5%;
+	margin-left: -98px;
+	position: absolute;
+}
+
+.wrapper label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: background ease-in-out .5s;
+	-moz-transition: background ease-in-out .5s;
+	-o-transition: background ease-in-out .5s;
+	transition: background ease-in-out .5s;
+}
+
+.wrapper label:hover, 
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4),
+#slide5:checked ~ .controls label:nth-of-type(5),
+#slide6:checked ~ .controls label:nth-of-type(6),
+#slide7:checked ~ .controls label:nth-of-type(7),
+#slide8:checked ~ .controls label:nth-of-type(8),
+#slide9:checked ~ .controls label:nth-of-type(9),
+#slide10:checked ~ .controls label:nth-of-type(10),
+#slide11:checked ~ .controls label:nth-of-type(11) {
+	background: #ddd;
+}
+
+.wrapper label:after {
+	border: 2px solid #ddd;
+	content: " ";
+	display: block;
+	height: 12px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}

@@ -1,0 +1,123 @@
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;                              
+	vertical-align: baseline;         
+	background: transparent;      
+	font-size: 100%;                     
+}
+a {                                      	     
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	color:#000;
+	text-decoration: none;
+}
+
+body {
+	font: 12px/1.4 Verdana,sans-serif;
+    color: #000;
+}
+
+	.clr, .hr {
+		clear: both!important;
+	}
+.site {
+	width:1020px;
+	margin:0px auto;
+}
+	.head {
+		position:static;
+	}
+		#logo {
+			width:321px;
+			height:51px;
+			text-decoration:none;
+			background:transparent url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RZD.svg/320px-RZD.svg.png') no-repeat ;
+			display: block;
+			margin: 15px 0;
+		}
+		.topMenu {
+			position:absolute;
+			right:-5px;
+			top:31px;
+		}
+		
+	.rowLeft {
+		width:235px;
+		margin-right:12px;
+		float:left;
+	}
+	.rowCenter {
+		width:525px;
+		float:left;
+	}
+	.rowRight {
+		width:235px;
+		margin-left:13px;
+		float:left;
+	}
+	
+	.centerBlock {
+		padding: 10px;
+		border-radius: 10px;
+		border: 1px solid #c2c2c2;
+		margin-bottom: 15px;
+	}
+	.centerBlock:after {
+		content: " ";
+		position: relative;
+		display: block;
+		clear: both;
+	}
+		.centerBlock h1 {
+			margin-bottom: 1em;
+			font-size: 15px;
+			text-transform:uppercase;
+		}
+		.centerBlock p {
+			margin-bottom: 1em;
+		}
+		.centerBlock ol {
+			margin-left:20px;
+		}
+		.centerBlock ul {
+			margin-top:5px;
+		}
+		
+
+	.grayBlock, .whiteBlock  {
+		padding: 10px;
+		border-radius: 10px;
+		border: 1px solid #c2c2c2;
+		background:#e5e5e5;
+		background-size: 100% 100%;
+		margin-bottom: 15px;
+	}
+	.whiteBlock {
+		background:#fff none !important;
+		border:0px;
+	}
+		
+	h2{text-align: center; font-style: italic; color:#c4181f; cursor: pointer;}
+		
+		
+
+.footer {
+	width:1020px;
+	height:170px;
+	background:#fff url('https://bigalbooks.com/wp-content/uploads/2018/05/landing-page-swoosh.png') no-repeat center top;
+	position:relative;
+
+}
+	.copy {
+		position:absolute;
+		left:5px;
+		top:105px;
+		font-size: 10px;
+		color: rgb(94, 94, 94);
+	}
