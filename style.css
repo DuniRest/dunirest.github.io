@@ -1,12 +1,14 @@
 
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+body {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	outline: 0;                              
 	vertical-align: baseline;         
 	background: transparent;      
-	font-size: 100%;                     
+	font-size: 100%;
+	font: 12px/1.4 Verdana,sans-serif;
+    color: #000;                     
 }
 a {                                      	     
 	margin:0;
@@ -18,21 +20,11 @@ a {
 	text-decoration: none;
 }
 
-body {
-	font: 12px/1.4 Verdana,sans-serif;
-    color: #000;
-}
 
 	.clr, .hr {
 		clear: both!important;
 	}
-.site {
-	width:1020px;
-	margin:0px auto;
-}
-	.head {
-		position:static;
-	}
+
 		#logo {
 			width:321px;
 			height:51px;
@@ -74,20 +66,7 @@ body {
 		display: block;
 		clear: both;
 	}
-		.centerBlock h1 {
-			margin-bottom: 1em;
-			font-size: 15px;
-			text-transform:uppercase;
-		}
-		.centerBlock p {
-			margin-bottom: 1em;
-		}
-		.centerBlock ol {
-			margin-left:20px;
-		}
-		.centerBlock ul {
-			margin-top:5px;
-		}
+	
 		
 
 	.grayBlock, .whiteBlock  {
@@ -102,10 +81,6 @@ body {
 		background:#fff none !important;
 		border:0px;
 	}
-		
-	h2{text-align: center; font-style: italic; color:#c4181f; cursor: pointer;}
-		
-		
 
 .footer {
 	width:1020px;

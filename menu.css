@@ -22,4 +22,5 @@
 #rasp:checked ~ .rasp,
 #prigorod:checked ~ .prigorod,
 #service:checked ~ .service{
-  display: block;}
+  display: block;
+}

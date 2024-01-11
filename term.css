@@ -1,8 +1,4 @@
-.tabs {
-    max-width:700px;
-    float:left;
-    margin:20px 0px 0px 0px;
-}
+
     .tabs-title {
         float:left;
         width:222px;
@@ -14,34 +10,49 @@
         text-transform:uppercase;
         background:transparent url('https://i.ibb.co/PM8zw8y/skorost.png') no-repeat left ;
     }
-    .tabs-title:hover {color:#c4181f; background:transparent url('https://i.ibb.co/HB9SpwB/skorost1.png') no-repeat left;}
-    .tabs-title:hover #serv1{color:#c4181f; background:transparent url('https://i.ibb.co/HB9SpwB/skorost1.png') no-repeat left;}
+    .tabs-title:hover {
+        color:#c4181f; 
+        background:transparent url('https://i.ibb.co/HB9SpwB/skorost1.png') no-repeat left;
+    }
+    .tabs-title:hover #serv1{
+        color:#c4181f; 
+        background:transparent url('https://i.ibb.co/HB9SpwB/skorost1.png') no-repeat left;
+    }
         .tt-select, #menu1,#serv2,#rasp{
-            color:#c4181f !important;
+            color:#c4181f ;
         }
             .tt-select span, .tabs-title:hover span {
-                background-position:left -50px !important;
+                background-position:left -50px;
             }
         .tabs-title span {
             padding:18px 0px 10px 40px;
         }
         #menu1{
-            background:transparent url('https://i.ibb.co/QYYTwnQ/info1.png') no-repeat left ;}
+            background:transparent url('https://i.ibb.co/QYYTwnQ/info1.png') no-repeat left ;
+        }
             #menu2{
-                background:transparent url('https://i.ibb.co/ZzCPKcH/info.png') no-repeat left ;}
+                background:transparent url('https://i.ibb.co/ZzCPKcH/info.png') no-repeat left ;
+            }
             #serv1{
-                background:transparent url('https://i.ibb.co/ZzCPKcH/info.png') no-repeat left ;}
+                background:transparent url('https://i.ibb.co/ZzCPKcH/info.png') no-repeat left ;
+            }
             #serv2{
-                background:transparent url('https://i.ibb.co/QYYTwnQ/info1.png') no-repeat left ;}
+                background:transparent url('https://i.ibb.co/QYYTwnQ/info1.png') no-repeat left ;
+            }
         #serv1:hover,#menu2:hover{
             background:transparent url('https://i.ibb.co/QYYTwnQ/info1.png') no-repeat left ;
         }
-        #rasp{ background:transparent url('https://i.ibb.co/HB9SpwB/skorost1.png') no-repeat left ;}
-        .tabmain {overflow: hidden;}
+        #rasp{ background:transparent url('https://i.ibb.co/HB9SpwB/skorost1.png') no-repeat left ;
+        }
+        .tabmain {
+            overflow: hidden;
+        }
 
     
-        .serv-list{margin:5px;
-        width: 450px;}
+        .serv-list{
+            margin:5px;
+            width: 450px;
+        }
             .serv {
                 color:#616161;
                 text-decoration:none;
